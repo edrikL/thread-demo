@@ -2,6 +2,7 @@ import java.util.Stack;
 
 /**
  * ActiveQueue定义，其实就是一个producer/consumer队列
+ * 用来存放调用者请求
  * @author sunxboy
  *
  */

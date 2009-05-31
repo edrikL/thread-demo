@@ -1,5 +1,7 @@
 
 public class SayHello implements MethodRequest{
+	private Service _service;
+	
 	public SayHello(Service s){
         _service = s;
     }
@@ -8,6 +10,5 @@ public class SayHello implements MethodRequest{
         _service.sayHello();
     }
 
-    private Service _service;
 
 }

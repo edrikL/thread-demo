@@ -1,4 +1,8 @@
-
+/**
+ * 封装了并发逻辑的活动对象 
+ * @author sunxboy
+ *
+ */
 public class ActiveObject extends Thread {
 	private ActiveQueue _queue;
 	   
