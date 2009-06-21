@@ -2,13 +2,12 @@
 public class Client {
 
 	Service service;
-	public Client(Service service) {
-		this.service = service;
+	public Client() {
+		this.service =  new ServiceProxy();
 	}
 	
 	public static void main(String[] args) {
-		Service s = new ServiceImp();
-		Client c = new Client(s);
+		Client c = new Client();
 		c.requestService(); 
 	}
 
